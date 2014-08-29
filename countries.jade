@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title= 'Sicpc Mobile'
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+    meta(name="viewport", content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0")
+    link(rel='stylesheet', href='//lib.sinaapp.com/js/bootstrap/v3.0.0/css/bootstrap.min.css')
+    link(rel='stylesheet', href='//lib.sinaapp.com/js/bootstrap/v3.0.0/css/bootstrap-theme.min.css')
+    
+  body
+    .container
+      table.table
+        .thead
+          tr
+            td.
+              国家
+            td.
+              已找到
+            td.
+              地点
+        .tbody
+        - for(var i=0;i<countries.length;i++)
+          tr
+            td.
+              #{countries[i]['name']}
+            td.
+              #{countries[i]['found']}
+            td.
+              #{countries[i]['location']}
+
