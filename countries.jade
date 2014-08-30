@@ -9,14 +9,16 @@ html
     script(src="http://lib.sinaapp.com/js/jquery/1.10.2/jquery-1.10.2.js")
     script(type="text/javascript").
       var countries = !{JSON.stringify(countries)};
+      var date = !{JSON.stringify(date)};;
     script(src="public/client.js")
   body
     .container
       - var totalspan = '<span id="total"></span>';
       - var foundspan = '<span id="found"></span>';
       - var notfoundspan = '<span id="notfound"></span>';
+      - var refreshspan = '<span id="refreshedat"></span>';
       p.
-        总共 !{totalspan} 已设立 !{foundspan} 未设立 !{notfoundspan}
+        总共 !{totalspan} 已设立 !{foundspan} 未设立 !{notfoundspan} 更新于 !{refreshspan}
       div
         label.
           只显示未设立
@@ -26,8 +28,6 @@ html
           tr
             td.
               国家
-            td.
-              已设立
             td.
               地点
         tbody

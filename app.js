@@ -778,7 +778,7 @@ var allCountries = [
     "name": "Gobon"
   }
 ];
-
+var date = new Date().getTime()
 allCountries.splice(allCountries.indexOf('China'),1);
 var data = [];
 var getCountries = function() {
@@ -803,6 +803,7 @@ var getCountries = function() {
             });
 
             console.log(data);
+            date = new Date().getTime();
         }
     });
 };
@@ -811,5 +812,6 @@ setInterval(getCountries, 30 * 60 * 1000);
 
 
 app.get('/countries', function(req, res, next) {
-  res.render('countries', {countries: data});
+  console.log('date is ', date);
+  res.render('countries', {countries: data, date: date});
 });
