@@ -100,7 +100,7 @@ var allCountries = [
     "name" : "Bhutan"
   },
   {
-    "name" : "Bolivia, Plurinational State of"
+    "name" : "Bolivia"
   },
   {
     "name" : "Bonaire, Sint Eustatius and Saba"
@@ -163,7 +163,7 @@ var allCountries = [
     "name" : "Christmas Island"
   },
   {
-    "name" : "Cocos (Keeling) Islands"
+    "name" : "Cocos Islands"
   },
   {
     "name" : "Colombia"
@@ -199,7 +199,7 @@ var allCountries = [
     "name" : "Cyprus"
   },
   {
-    "name" : "Czech Republic"
+    "name" : "Czech"
   },
   {
     "name" : "Denmark"
@@ -235,7 +235,7 @@ var allCountries = [
     "name" : "Ethiopia"
   },
   {
-    "name" : "Falkland Islands (Malvinas)"
+    "name" : "Falkland Islands"
   },
   {
     "name" : "Faroe Islands"
@@ -313,7 +313,7 @@ var allCountries = [
     "name" : "Heard Island and McDonald Islands"
   },
   {
-    "name" : "Holy See (Vatican City State)"
+    "name" : "Vatican"
   },
   {
     "name" : "Honduras"
@@ -334,7 +334,7 @@ var allCountries = [
     "name" : "Indonesia"
   },
   {
-    "name" : "Iran, Islamic Republic of"
+    "name" : "Iran"
   },
   {
     "name" : "Iraq"
@@ -385,7 +385,7 @@ var allCountries = [
     "name" : "Kyrgyzstan"
   },
   {
-    "name" : "Lao People\'s Democratic Republic"
+    "name" : "Lao"
   },
   {
     "name" : "Latvia"
@@ -400,7 +400,7 @@ var allCountries = [
     "name" : "Liberia"
   },
   {
-    "name" : "Libyan Arab Jamahiriya"
+    "name" : "Libya"
   },
   {
     "name" : "Liechtenstein"
@@ -412,10 +412,10 @@ var allCountries = [
     "name" : "Luxembourg"
   },
   {
-    "name" : "Macao"
+    "name" : "Macau"
   },
   {
-    "name" : "Macedonia, The former Yugoslav Republic of"
+    "name" : "Macedonia"
   },
   {
     "name" : "Madagascar"
@@ -454,10 +454,10 @@ var allCountries = [
     "name" : "Mexico"
   },
   {
-    "name" : "Micronesia, Federated States of"
+    "name" : "Micronesia"
   },
   {
-    "name" : "Moldova, Republic of"
+    "name" : "Moldova"
   },
   {
     "name" : "Monaco"
@@ -547,7 +547,7 @@ var allCountries = [
     "name" : "Philippines"
   },
   {
-    "name" : "Pitcairn"
+    "name" : "Pitcairn Islands"
   },
   {
     "name" : "Poland"
@@ -562,13 +562,13 @@ var allCountries = [
     "name" : "Qatar"
   },
   {
-    "name" : "Reunion"
+    "name" : "Reunion Islands"
   },
   {
     "name" : "Romania"
   },
   {
-    "name" : "Russian Federation"
+    "name" : "Russia"
   },
   {
     "name" : "Rwanda"
@@ -577,13 +577,13 @@ var allCountries = [
     "name" : "Saint Barthelemy"
   },
   {
-    "name" : "Saint Helena, Ascension and Tristan Da Cunha"
+    "name" : "St. Helena"
   },
   {
     "name" : "Saint Kitts and Nevis"
   },
   {
-    "name" : "Saint Lucia"
+    "name" : "St. Lucia"
   },
   {
     "name" : "Saint Martin (French Part)"
@@ -670,22 +670,22 @@ var allCountries = [
     "name" : "Switzerland"
   },
   {
-    "name" : "Syrian Arab Republic"
+    "name" : "Syria"
   },
   {
-    "name" : "Taiwan, Province of China"
+    "name" : "Taiwan"
   },
   {
     "name" : "Tajikistan"
   },
   {
-    "name" : "Tanzania, United Republic of"
+    "name" : "Tanzania"
   },
   {
     "name" : "Thailand"
   },
   {
-    "name" : "Timor-Leste"
+    "name" : "East Timor"
   },
   {
     "name" : "Togo"
@@ -742,10 +742,10 @@ var allCountries = [
     "name" : "Vanuatu"
   },
   {
-    "name" : "Venezuela, Bolivarian Republic of"
+    "name" : "Venezuela"
   },
   {
-    "name" : "Viet Nam"
+    "name" : "VietNam"
   },
   {
     "name" : "Virgin Islands, British"
@@ -767,6 +767,15 @@ var allCountries = [
   },
   {
     "name" : "Zimbabwe"
+  },
+  {
+    "name": "Zaire"
+  },
+  {
+    "name": "Guynea"
+  },
+  {
+    "name": "Gobon"
   }
 ];
 

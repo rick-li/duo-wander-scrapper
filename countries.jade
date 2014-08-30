@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title= 'Sicpc Mobile'
+    title= '雨中漫步'
     meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
     meta(name="viewport", content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0")
     link(rel='stylesheet', href='//lib.sinaapp.com/js/bootstrap/v3.0.0/css/bootstrap.min.css')
@@ -12,9 +12,15 @@ html
     script(src="public/client.js")
   body
     .container
-      label.
-        只显示未找到
-      input(id='foundFilter' type='checkbox')
+      - var totalspan = '<span id="total"></span>';
+      - var foundspan = '<span id="found"></span>';
+      - var notfoundspan = '<span id="notfound"></span>';
+      p.
+        总共 !{totalspan} 已找到 !{foundspan} 未找到 !{notfoundspan}
+      div
+        label.
+          只显示未找到
+        input(id='foundFilter' type='checkbox')
       table.table.table-bordered.table-hover
         thead
           tr
