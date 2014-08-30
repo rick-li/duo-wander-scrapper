@@ -745,7 +745,7 @@ var allCountries = [
     "name" : "Venezuela"
   },
   {
-    "name" : "VietNam"
+    "name" : "Vietnam"
   },
   {
     "name" : "Virgin Islands, British"
