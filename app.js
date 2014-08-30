@@ -14,7 +14,7 @@ var port = 3100;
 app.set('views', __dirname);
 app.set('view engine', 'jade');
 app.use('port', port);
-
+app.use('/public', express.static(__dirname + '/public'));
 app.use(express.json());
 
 var server = require('http').createServer(app).listen(port);
@@ -50,7 +50,7 @@ var getCountries = function() {
     });
 };
 getCountries();
-setInterval(getCountries, 60 * 60 * 1000);
+setInterval(getCountries, 30 * 60 * 1000);
 
 
 app.get('/countries', function(req, res, next) {

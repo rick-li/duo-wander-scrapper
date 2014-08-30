@@ -6,11 +6,17 @@ html
     meta(name="viewport", content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0")
     link(rel='stylesheet', href='//lib.sinaapp.com/js/bootstrap/v3.0.0/css/bootstrap.min.css')
     link(rel='stylesheet', href='//lib.sinaapp.com/js/bootstrap/v3.0.0/css/bootstrap-theme.min.css')
-    
+    script(src="http://lib.sinaapp.com/js/jquery/1.10.2/jquery-1.10.2.js")
+    script(type="text/javascript").
+      var countries = !{JSON.stringify(countries)};
+    script(src="public/client.js")
   body
     .container
-      table.table
-        .thead
+      label.
+        只显示未找到
+      input(id='foundFilter' type='checkbox')
+      table.table.table-bordered.table-hover
+        thead
           tr
             td.
               国家
@@ -18,13 +24,5 @@ html
               已找到
             td.
               地点
-        .tbody
-        - for(var i=0;i<countries.length;i++)
-          tr
-            td.
-              #{countries[i]['name']}
-            td.
-              #{countries[i]['found']}
-            td.
-              #{countries[i]['location']}
-
+        tbody
+        
