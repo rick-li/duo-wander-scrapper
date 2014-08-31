@@ -46,9 +46,6 @@ var allCountries = [
     "name" : "Anguilla"
   },
   {
-    "name" : "Antarctica"
-  },
-  {
     "name" : "Antigua and Barbuda"
   },
   {
@@ -577,13 +574,13 @@ var allCountries = [
     "name" : "Saint Barthelemy"
   },
   {
-    "name" : "St. Helena"
+    "name" : "Saint Helena"
   },
   {
     "name" : "Saint Kitts and Nevis"
   },
   {
-    "name" : "St. Lucia"
+    "name" : "Saint Lucia"
   },
   {
     "name" : "Saint Martin (French Part)"
