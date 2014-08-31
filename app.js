@@ -769,9 +769,6 @@ var allCountries = [
     "name" : "Zimbabwe"
   },
   {
-    "name": "Zaire"
-  },
-  {
     "name": "Guynea"
   },
   {
