@@ -588,9 +588,9 @@ var allCountries = [
   {
     "name" : "Saint Pierre and Miquelon"
   },
-  {
-    "name" : "Saint Vincent and The Grenadines"
-  },
+  // {
+  //   "name" : "Saint Vincent and The Grenadines"
+  // },
   {
     "name" : "Samoa"
   },
@@ -772,8 +772,8 @@ var allCountries = [
     "name": "Gobon"
   }
 ];
-var date = new Date().getTime()
-allCountries.splice(allCountries.indexOf('China'),1);
+var date = new Date().getTime();
+var finishedCountries = {};
 var data = [];
 var getCountries = function() {
 
@@ -783,11 +783,11 @@ var getCountries = function() {
         done: function(errors, window) {
             var $ = window.$;
             var root = $('body>ul');
-            var finishedCountries = {};
+            finishedCountries = {};
             root.find('div>ul>div').each(function(i, el){var id = $(el).prev().find('u').text(); var location = $(el).find('li').text();var res = {}; finishedCountries[id] = location;});
             console.log(finishedCountries)
             data = allCountries.map(function(c) {
-              console.log(finishedCountries[c.name]);
+              console.log(c.name+' => '+finishedCountries[c.name]);
               var found = !!finishedCountries[c.name];
               var item = {name: c.name, found: found};
               if(found){
@@ -807,5 +807,5 @@ setInterval(getCountries, 30 * 60 * 1000);
 
 app.get('/countries', function(req, res, next) {
   console.log('date is ', date);
-  res.render('countries', {countries: data, date: date});
+  res.render('countries', {countries: data, date: date, finished: finishedCountries});
 });
