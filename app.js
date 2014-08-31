@@ -588,9 +588,6 @@ var allCountries = [
   {
     "name" : "Saint Pierre and Miquelon"
   },
-  // {
-  //   "name" : "Saint Vincent and The Grenadines"
-  // },
   {
     "name" : "Samoa"
   },
