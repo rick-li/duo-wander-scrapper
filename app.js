@@ -382,7 +382,7 @@ var allCountries = [
     "name" : "Kyrgyzstan"
   },
   {
-    "name" : "Lao"
+    "name" : "Laos"
   },
   {
     "name" : "Latvia"
@@ -761,9 +761,6 @@ var allCountries = [
   },
   {
     "name" : "Zimbabwe"
-  },
-  {
-    "name": "Guynea"
   },
   {
     "name": "Gobon"
