@@ -761,9 +761,6 @@ var allCountries = [
   },
   {
     "name" : "Zimbabwe"
-  },
-  {
-    "name": "Gobon"
   }
 ];
 var date = new Date().getTime();

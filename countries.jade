@@ -6,12 +6,15 @@ html
     meta(name="viewport", content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0")
     link(rel='stylesheet', href='//lib.sinaapp.com/js/bootstrap/v3.0.0/css/bootstrap.min.css')
     link(rel='stylesheet', href='//lib.sinaapp.com/js/bootstrap/v3.0.0/css/bootstrap-theme.min.css')
-    script(src="http://lib.sinaapp.com/js/jquery/1.10.2/jquery-1.10.2.js")
-    script(type="text/javascript").
-      var countries = !{JSON.stringify(countries)};
-      var date = !{JSON.stringify(date)};
-      var finished = !{JSON.stringify(finished)};
-    script(src="public/client.js")
+    style.
+      .map-container{
+        position: absolute;
+        top: 5px;
+        width: 100%;
+        height: 800px;
+        margin: 0 10px;
+      }
+
   body
     .container
       - var totalspan = '<span id="total"></span>';
@@ -32,4 +35,12 @@ html
             td.
               地点
         tbody
-        
+    //- .map-container
+
+  script(src="http://lib.sinaapp.com/js/jquery/1.10.2/jquery-1.10.2.js")
+  script(type="text/javascript").
+    var countries = !{JSON.stringify(countries)};
+    var date = !{JSON.stringify(date)};
+    var finished = !{JSON.stringify(finished)};
+  script(src="public/client.js")
+  //- script(src="https://ditu.google.cn/maps/api/js?key=AIzaSyAHKkmUwVSt6xr-K4pj7VwhoxSs_iTFq5Y")
