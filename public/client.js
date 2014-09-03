@@ -11,10 +11,16 @@ $(document).ready(function() {
       var latlng = '';
       if (matchs) {
         latlng = matchs[1];
+        latlng = latlng.split(',');
+        var lat = Geo.parseDMS($.trim(latlng[0]));
+        var lng = Geo.parseDMS($.trim(latlng[1]));
+        latlng = lat+','+lng;
+        console.log(latlng);
       }
+
       var url = '#';
       if (latlng) {
-        var param = 'center=' + encodeURIComponent(latlng) + '&zoom=18&size=800x800&maptype=satellite&markers=color:blue|' + encodeURIComponent(latlng) + '&scale=2';
+        var param = 'center=' + encodeURIComponent(latlng) + '&zoom=18&size=800x800&maptype=hybrid&markers=color:blue|' + encodeURIComponent(latlng) + '&scale=2';
 
         url = 'https://ditu.google.cn/maps/api/staticmap?'+  param;
       }

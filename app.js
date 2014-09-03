@@ -766,9 +766,11 @@ var allCountries = [
 var date = new Date().getTime();
 var finishedCountries = {};
 var data = [];
+//url: "https://www.duosuccess.com/tcm/001new01la090512a1.htm",
 var getCountries = function() {
 
       jsdom.env({
+        // url: "http://localhost:3100/public/sample.html",
         url: "https://www.duosuccess.com/tcm/001new01la090512a1.htm",
         src: [jquery],
         done: function(errors, window) {
