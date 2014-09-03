@@ -22,7 +22,7 @@ $(document).ready(function() {
       if (latlng) {
         var param = 'center=' + encodeURIComponent(latlng) + '&zoom=18&size=800x800&maptype=hybrid&markers=color:blue|' + encodeURIComponent(latlng) + '&scale=2';
 
-        url = 'https://maps.google.com/maps/api/staticmap?'+  param;
+        url = 'https://ditu.google.cn/maps/api/staticmap?'+  param;
       }
       
       return '<tr><td>' + item.name + '</td><td class="location"><a href="' + url + '">' + location + '</a></td></tr>'
