@@ -208,7 +208,7 @@ var allCountries = [
     "name" : "Dominica"
   },
   {
-    "name" : "Dominican Republic"
+    "name" : "Dominican"
   },
   {
     "name" : "Ecuador"
