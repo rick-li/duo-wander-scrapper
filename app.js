@@ -118,7 +118,7 @@ var allCountries = [
     "name" : "British Indian Ocean Territory"
   },
   {
-    "name" : "Brunei Darussalam"
+    "name" : "Brunei"
   },
   {
     "name" : "Bulgaria"
@@ -160,7 +160,7 @@ var allCountries = [
     "name" : "Christmas Island"
   },
   {
-    "name" : "Cocos Islands"
+    "name" : "Cocos (Keeling) Islands"
   },
   {
     "name" : "Colombia"
@@ -169,10 +169,10 @@ var allCountries = [
     "name" : "Comoros"
   },
   {
-    "name" : "Congo"
+    "name" : "Congo (Brazzaville)"
   },
   {
-    "name" : "Congo, The Democratic Republic of the"
+    "name" : "Congo (Kinshasa)"
   },
   {
     "name" : "Cook Islands"
@@ -181,7 +181,7 @@ var allCountries = [
     "name" : "Costa Rica"
   },
   {
-    "name" : "Cote d\'Ivoire"
+    "name" : "Ivory Coast"
   },
   {
     "name" : "Croatia"
@@ -355,7 +355,7 @@ var allCountries = [
     "name" : "Japan"
   },
   {
-    "name" : "Jersey"
+    "name" : "Jersey Island"
   },
   {
     "name" : "Jordan"
@@ -559,7 +559,7 @@ var allCountries = [
     "name" : "Qatar"
   },
   {
-    "name" : "Reunion Islands"
+    "name" : "Reunion"
   },
   {
     "name" : "Romania"
@@ -616,7 +616,7 @@ var allCountries = [
     "name" : "Singapore"
   },
   {
-    "name" : "Sint Maarten (Dutch Part)"
+    "name" : "Sint Maarten"
   },
   {
     "name" : "Slovakia"
