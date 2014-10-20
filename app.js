@@ -115,9 +115,6 @@ var allCountries = [
     "name" : "Brazil"
   },
   {
-    "name" : "British Indian Ocean Territory"
-  },
-  {
     "name" : "Brunei"
   },
   {
@@ -253,9 +250,6 @@ var allCountries = [
     "name" : "French Polynesia"
   },
   {
-    "name" : "French Southern Territories"
-  },
-  {
     "name" : "Gabon"
   },
   {
@@ -305,9 +299,6 @@ var allCountries = [
   },
   {
     "name" : "Haiti"
-  },
-  {
-    "name" : "Heard Island and McDonald Islands"
   },
   {
     "name" : "Vatican"
