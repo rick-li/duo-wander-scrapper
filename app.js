@@ -100,7 +100,7 @@ var allCountries = [
     "name" : "Bolivia"
   },
   {
-    "name" : "Bonaire, Sint Eustatius and Saba"
+    "name" : "Bonaire"
   },
   {
     "name" : "Bosnia and Herzegovina"
@@ -108,9 +108,7 @@ var allCountries = [
   {
     "name" : "Botswana"
   },
-  {
-    "name" : "Bouvet Island"
-  },
+  
   {
     "name" : "Brazil"
   },
@@ -517,7 +515,7 @@ var allCountries = [
     "name" : "Palau"
   },
   {
-    "name" : "Palestinian Territory, Occupied"
+    "name" : "Palestine"
   },
   {
     "name" : "Panama"
@@ -625,9 +623,6 @@ var allCountries = [
     "name" : "South Africa"
   },
   {
-    "name" : "South Georgia and The South Sandwich Islands"
-  },
-  {
     "name" : "South Sudan"
   },
   {
@@ -713,9 +708,6 @@ var allCountries = [
   },
   {
     "name" : "United States"
-  },
-  {
-    "name" : "United States Minor Outlying Islands"
   },
   {
     "name" : "Uruguay"
